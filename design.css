@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "Butler Stencil";
+	src: url("fonts/ButlerStencil.woff");
+}
+
+h1, h2 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h1{
+	color: black;
+	font-size: 64px;
+	margin-top: 0px;
+	position: relative;
+	top: 50px;
+}
+
+.terra_img {
+	margin-top: 30px;
+	height: 25%;
+	border: 10px solid white;
+	transition: 0.3s;
+}
+
+.terra_img:hover {
+	box-shadow: 0 0 20px 20px white;
+}
+
+body {
+	background-color: #141516;
+	color: white;
+	margin: 0px;
+	font-family: "Butler Stencil", "Times New Roman", serif;
+	font-size: 20px;
+	min-width: 1600px;
+}
+
+.title {
+	background-image: url("images/bg1.jpg");
+	height: 100vh;
+	min-height: 950px;
+}
+
+nav {
+	position: fixed;
+	z-index: 1;
+	background-color: black;
+	opacity: 75%;
+	width: 100%;
+	height: 40px;
+	padding-top: 10px;
+	min-width: 900px;
+}
+
+.about {
+	min-height: 450px;
+}
+
+p {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: 0.5s;
+}
+
+nav a:hover {
+	color: #3583A3;
+}
+
+.terra {
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/bg2.jpg");
+	min-height: 600px;
+}
+
+.terra h2 {
+	padding-top: 20px;
+}
+
+.terra li {
+	width: 900px;
+	height: 900px;
+}
+
+.terra ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+	list-style: none;
+	margin-top: 50px;
+	margin-left: 1%;
+	margin-right: 1%;
+	max-height: 250px;
+}
+
+.operators {
+	height: 120vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/bg3.jpg");
+	min-height: 1050px;
+	background-repeat: no-repeat;
+}
+
+.operator_img {
+	transition: 0.5s;
+	max-width: 100%;
+	height: auto;
+}
+
+.operator_img:hover {
+	filter: brightness(1.25);
+}
+
+.operators h2 {
+	padding-top: 20px;
+}
+
+.operators #operator-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+	list-style: none;
+	margin-top: 50px;
+	margin-right: 2%;
+}
+
+.gameplay {
+	min-height: 300px;
+}
+
+.links a {
+	text-decoration: none;
+	color: #AECDDA;
+	transition: 0.5s;
+}
+
+.links a:hover {
+	color: #3583A3;
+}
+
+#h-terra, #p-terra, #h-operators, #p-operators {
+	text-align: center;
+}
+
+#h-terra{
+	margin-top: 80px;
+	text-align: center;
+}
+
+form, h4 {
+	text-align: center;
+}
+
+h4 {
+	margin: 0px;
+}
+
+.operators #search {
+	text-align: center;
+}
+
+.operators #extra {
+	background-color: #141516;
+	min-height: 700px;
+	min-width: 1600px;
+}
+
+.operators #ul {
+	max-width: 300px;
+}
+
+.links ol {
+	margin-left: 40px;
+	list-style-type: upper-roman;
+}
+
+@media print {
+	.navbar {
+		display: none;
+	}
+	
+	.terra {
+		height: 75vh;
+	}
+	
+	.operators {
+		height: 70vh;
+	}
+	
+	body {
+		color: black;
+		background-color: white;
+	}
+	
+	.operators #extra {
+		background-color: white;
+	}
+	
+	.terra, .operators {
+		color: white;
+	}
+	
+	.operators ul {
+		color: black;
+	}
+}
+

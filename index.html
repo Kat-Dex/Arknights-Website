@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Arknights</title>
+		<link rel="stylesheet" href="design.css">
+		<script src="arknights.js"></script>
+		<script src="arknightsDB.js"></script>
+	</head>
+<body>
+		<nav>
+			<a href=#about>About Arknights</a>
+			<a href=#terra>A Look into Terra</a>
+			<a href=#gameplay>Gameplay</a>
+			<a href=#operators>Operators</a>
+			<a href=#links>External Links</a>
+		</nav>
+	<section class="title">
+		<h1>Arknights</h1>
+	</section>
+	<section class="about">
+		<h2 id=about>About Arknights</h2>
+		<p><i>Arknights</i> is a science-fantasy tower defense gacha video game developed by a Chinese company Hypergryph. The game is available on Android and iOS. The game was originally released in China but was later released in other regions such as Japan, Korea, Taiwan and Worldwide (referred as Global/English server).</p>
+		<p><i>Arknights</i> takes place in the dystopian world of Terra. Terra may seem initially similar to our Earth, a modern world with a relatively similar level of technology — perhaps slightly more futuristic. However, its inhabitants, the "Ancients", sport animalistic traits. The world is constantly devastated by Catastrophes, ecological disasters of various sorts, forcing the world's inhabitants to adopt a nomadic life through nomadic cities. Along with the Catastrophes came Originium, a black crystalline mineral left behind in the aftermath of Catastrophes. Originium is widely used by the Terrans as a source of energy and engineering materials, and serves as the catalyst of magic-like powers known as Originium Arts. However, exposure to Originium leads to a "terminal disease" known as Oripathy, which has become a pandemic plaguing all of Terra. Oripathy is not easily transmissible, at least until the death and crystallization of its victims. Nevertheless, those stricken with Oripathy are known as Infected and suffer heavy oppression and marginalization across the entire world. </p>
+		<p>The game is told from the perspective of Rhodes Island, an international, non-governmental pharmaceutical corporation based in the eponymous nomadic landship, the mission of which is to aid the Infected. Rhodes Island hires many Infected and non-Infected Operators of various skills, trades, and origin; and effectively prove to be much more than a simple laboratory, boasting the paramilitary tactics and firepower of a small private military company. As they are best used to deal with the Infected, R.I. enters conflict with Reunion, a violent non-state actor consisting of radical Infected militants who intend to punish the Terrans for their plight. While Reunion is the game's initial antagonist, it has since expanded to other conflicts, including the succession conflict in Victoria, the rampant capitalism of Kazimierz, and the never-ending civil wars in Kazdel, among others. The protagonist of <i>Arknights</i> is an enigmatic individual known only as the Doctor. The Doctor has lost their memory from a long stasis in the mysterious Sarcophagus beneath the nomadic city of Chernobog, Ursus. They are rescued in the game's opening act by Rhodes Island, needing their tactical genius to act as their commander. </p>
+		<p>The story heavily deals with themes of marginalization, oppression, racism, and geopolitics.</p>
+	</section>
+	<section class="terra">
+		<h2 id=terra>A Look into Terra - the world of Arknights</h2>
+		<ul>
+			<li><input type="image" class="terra_img" src="images/infected.png" onclick="infected()" id="infected" alt="infected"></li>
+			<li><input type="image" class="terra_img" src="images/reunion.png" onclick="reunion()" id="reunion" alt="reunion"></li>
+			<li><input type="image" class="terra_img" src="images/originiums.png" onclick="originiums()" id="originiums" alt="originiums"></li>
+			<li><input type="image" class="terra_img" src="images/originium_arts.png" onclick="originium_arts()" id="originium_arts" alt="originium_arts"></li>
+			<li><input type="image" class="terra_img" src="images/nomadic_city.png" onclick="nomadic_city()" id="nomadic_city" alt="nomadic_city"></li>
+			<li><input type="image" class="terra_img" src="images/rhodes_island.png" onclick="rhodes_island()" id="rhodes_island" alt="rhodes_island"></li>
+		</ul>
+		<h3 id="h-terra">Click a button</h3>
+		<p id="p-terra"></p>
+	</section>
+	<section class="gameplay">
+		<h2 id=gameplay>Gameplay</h2>
+		<p><i>Arknights</i> has general premise of a tower defense game: the player must keep enemies from reaching a certian goal by using towers. Although, the game integrates a significant design difference: unique Operators act as the towers who can be deployed around the map and hold off enemies whether by attacking or blocking them, and due to its RPG-inspired progression mechanics and unique Operator skillsets, no two "towers" typically work the same. Compared to most other Tower Defense games, <i>Arknights</i> features rather unique mechanics, as it is designed to be a tower defense game that plays like a strategy RPG. Enemies take various uncommon paths to reach their goals, there is a wide variety of enemy types with their own unique characteristics and behaviors, some stages event completely upend the tower defense dynamic, and the gameplay tends to be significantly more challenging than average. </p>
+		<p><i>Arknights</i> naturally integrates a character progression system as most gachas do, which implies some repetitive farming of stages to acquire the resources needed to enhance their Operators. For this reason, Arknights includes the Auto Deploy feature which, uniquely, stores a semi-exact recording of the player's every input, deployment order and skill activation from a previous flawless clear on that map, allowing that map to be completed on its own without any further player input and making "grinding" for resources less tedious. </p>
+		<p><i>Arknights</i> includes the Rhodes Island Infrastructure Complex, a Base where Operators can be assigned to work and produce additional materials to enhance their abilities, a base building mechanic which requires the player to do some amount of management and thinking. </p>
+	</section>
+	<section class="operators">
+		<h2 id=operators>Operators</h2>
+		<ul id="operator-list">
+			<li><input type="image" class="operator_img" src="images/Amiya.png" onclick="amiya()" id="amiya" alt="amiya"></li>
+			<li><input type="image" class="operator_img" src="images/Kal_tsit.png" onclick="kaltsit()" id="kaltsit" alt="kal'tsit"></li>
+			<li><input type="image" class="operator_img" src="images/Ch_en.png" onclick="chen()" id="chen" alt="ch'en"></li>
+			<li><input type="image" class="operator_img" src="images/Dobermann.png" onclick="dobermann()" id="dobermann" alt="dobermann"></li>
+			<li><input type="image" class="operator_img" src="images/Blaze.png" onclick="blaze()" id="blaze" alt="blaze"></li>
+		</ul>
+		<h3 id="h-operators">Click a button</h3>
+		<p id="p-operators"></p>
+		<div id="extra">
+		<h4>Operator name</h4>
+		<form name = "theForm" action="https://www.w3schools.com/action_page.php" method="get" target="_blank">
+			<input type="text" id="name-operator" name="name-operator">
+			<br>
+			<input type="button" value="Submit" onclick="searchOperator()" id="submitbutton">
+		</form>
+		<div id="search">
+		</div>
+		</div>
+	</section>
+	<section class="links">
+		<h2 id=links>External Links</h2>
+		<hr>
+		<p><b><i>Arknights</i> is available both on Android and iOS:</b></p>
+		<ol>
+		<li><a href="https://play.google.com/store/apps/details?id=com.YoStarEN.Arknights">Google Play</a></li>
+		<li><a href="https://apps.apple.com/us/app/id1464872022?mt=8">App Store</a></li>
+		</ol>
+		<p><b><i>Arknights</i> also has their own: </b></p>
+		<ol>
+		<li><a href="https://www.arknights.global/">Official website</a>,</li> 
+		<li><a href="https://twitter.com/ArknightsEN">Twitter</a>,</li>  
+		<li><a href="https://www.facebook.com/ArknightsGlobal">Facebook</a>,</li>  
+		<li><a href="https://www.youtube.com/channel/UCR0J2NYGuC8epsa1O4DMmXQ">Youtube</a>,</li>  
+		<li><a href="https://www.instagram.com/arknights_messenger_official/">Instagram</a>.</li> 
+		</ol>
+	</section>
+</body>
+</html>
